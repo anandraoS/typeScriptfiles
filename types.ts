@@ -1,0 +1,18 @@
+let a: number;
+a = 234;
+console.log(a);
+let b:boolean;
+b = true;
+console.log(b);
+let s:string;
+s = 'some';
+console.log(s);
+let d:any;
+d = {name:'anand',age:'12'};
+console.log(d.name);
+let e: number[];
+e = [123,234];
+console.log(e);
+let g : any[];
+g = [213,d,e];
+console.log(g[0]);
